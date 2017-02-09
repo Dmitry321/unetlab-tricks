@@ -5,7 +5,7 @@ Open links `telnet://` in terminal and `capture://` in Wireshark
 
 
 # Cloning repo
-`git clone https://github.com/WiXZlo/unetlab-tricks.git`
+`git clone https://github.com/Dmitry321/unetlab-tricks.git`
 
 # Install VNC viewer
 ## For Ubuntu/Debian/Mint
@@ -23,7 +23,7 @@ Open links `telnet://` in terminal and `capture://` in Wireshark
 4. Open page `capture://test` and Firefox will prompt you for the application to use. Select `firefox-open-capture-links.sh`
 5. Open page `vnc://test` and Firefox will prompt you for the application to use. Select `firefox-open-vnc-links.sh`
 
-## If firefox can't open links `capture://test` and `vnc://test` 
+## If firefox can't open links `capture://test` and/or `vnc://test` 
 1. Locate and edit your mimeTypes.rdf file.
 2. Add new stranzas in this file. For example for vnc:
 `<RDF:Description RDF:about="urn:scheme:vnc"
