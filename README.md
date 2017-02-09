@@ -27,10 +27,10 @@ Open links `telnet://` in terminal and `capture://` in Wireshark
 1. Locate and edit your mimeTypes.rdf file.
 2. Add new stranzas in this file. For example for vnc:
 
-<RDF:Description RDF:about="urn:scheme:vnc"
+`<RDF:Description RDF:about="urn:scheme:vnc"
                    NC:value="vnc">
     <NC:handlerProp RDF:resource="urn:scheme:handler:vnc"/>
-</RDF:Description>
+</RDF:Description>`
 
 3. Open firefox again and try to open vnc://test in address bar
 
