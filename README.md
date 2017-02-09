@@ -29,7 +29,7 @@ Open links `telnet://` in terminal and `capture://` in Wireshark
 `<RDF:Description RDF:about="urn:scheme:vnc"
                    NC:value="vnc">
     <NC:handlerProp RDF:resource="urn:scheme:handler:vnc"/>
-</RDF:Description>`
+</RDF:Description>`  
 2a. Optional set in firefox about:config
 `keyword.enabled;false`
 3. Open firefox again and try to open vnc://test in address bar, then see step 5 above.
